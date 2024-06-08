@@ -5,13 +5,18 @@ The FullStack ChatBOT is a web-based application that allows users to register, 
 
 Features:
 User registration and login (Token-based authentication for secure communication).
+
 Real-time chatbot interaction.
+
 Scalable architecture for handling varying traffic loads.
 
 Prerequisites:
 Node.js and npm installed on your machine.
+
 PostgreSQL database installed and running locally.
+
 Git installed for cloning the project repository.
+
 (Add your own Anthropic API key since it does not let me upload my API key to Github)
 
 Installation and Setup:
@@ -34,8 +39,11 @@ Here are the deployment instructions for running the FullStack ChatBOT applicati
 4. Database Setup:
 
     Create a PostgreSQL database named chatbot_db.
-    Run the database migrations to create the necessary tables:     npm run migrate
- Or : 
+   
+    Run the database migrations to create the necessary tables:
+    npm run migrate
+ Or :
+
 Create new table using   CREATE TABLE users (
   id SERIAL PRIMARY KEY,
   username VARCHAR(50) NOT NULL,
