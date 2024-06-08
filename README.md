@@ -12,6 +12,7 @@ Prerequisites:
 Node.js and npm installed on your machine.
 PostgreSQL database installed and running locally.
 Git installed for cloning the project repository.
+(Add your own Anthropic API key since it does not let me upload my API key to Github)
 
 Installation and Setup:
 Here are the deployment instructions for running the FullStack ChatBOT application on localhost:
